@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
   </head>
   <body>
-    <head>
+    <header>
       <div class="container">
         <ul class="nav">
           <li class="nav__item">Home</li>
@@ -19,61 +21,69 @@
         </ul>
         <hr />
       </div>
-    </head>
+    </header>
     <main>
-      <section class="subtitle">
-        <div class="container subtitle__wrapper">
-          <h1 class="subtitle__headerline">Denis<br><br> Novik</h1>
-          <p>UX | UI designer<br />24 years old, Minsk</p>
-        </div>
-        <div>
-          <div class="subtitle__image">
-            <img src="./images/foto.jpeg" alt="user" />
-        </div>
+      <section id="home">
+        <div class="container">
+          <div class="title_info">
+            <h1 class="title">Denis Novik</h1>
+            <p>
+              UX | UI designer <br />
+              24 years old, Minsk
+            </p>
           </div>
-        <div class="main_text">
+          <div class="subtitle__image">
+            <img src="./images/foto.jpeg" width="940" height="387" alt="user" />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
           <h2>About Me</h2>
-          <br>
-          <p>
-            Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in
-            design and everything connected with it. <br> 
-            <br> I'm studying at
-            courses "Web and mobile design <br> interfaces" in IT-Academy. <br>
-            <br />Ready to implement excellent projects <br />with wonderful
-            people.
+          <p class="about_massage">
+            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
+            and everything connected with it.
+          </p>
+          <p class="about_massage">
+            I'm studying at courses "Web and mobile design interfaces" in
+            IT-Academy.
+          </p>
+          <p class="about_massage">
+            Ready to implement excellent projects with wonderful people.
           </p>
         </div>
       </section>
     </main>
-    <section>
-      <div class="skills">
-      <h3>Skills</h3>
-      <br>
-      <p>I work in such programs as</p>
-      <br>
+
+    <div class="logo">
+      <img src="./images/Vector.svg" width="100" alt="" class="logo" />
+      <img src="./images/Vector2.svg" alt="" class="logo" width="100" /><img
+        src="./images/Vector3.svg"
+        alt=""
+        class="logo"
+        width="100"
+      /><img src="./images/Group.svg" alt="" class="logo" width="100" />
     </div>
-  </section>
-  <div class="logo">
-          <img src="./images/Vector.jpeg" width="100" alt="" class="logo" />
-          <img src="./images/Vector2.jpeg" alt="" class="logo" width="100" /><img
-            src="./images/Vector3.jpeg"alt=""class="logo"width="100"/><img 
-            src="./images/Group.jpeg" alt="" class="logo" width="100" />
-        </div>
+    <section class="Portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <img src="./images/p1.jpeg" alt="" />
+        <p class=""><a href="" class="">Online fashion store - Homepage</a></p>
+        <img src="./images/reebok.jpeg" alt="" />
+        <p class=""><a href="" class="">Reebok Store - Concept</a></p>
+        <img src="./images/braun.jpeg" alt="" />
+        <p class=""><a href="" class="">Braun Landing Page - Concept</a></p>
       </div>
-       <div class="Portfolio">
-          <h2>Portfolio</h2>
-          <img src="./images/p1.jpeg" alt="">
-          <p class=""><a href="" class="">Online fashion store - Homepage</a></p>
-          <img src="./images/reebok.jpeg" alt="">
-          <p class=""><a href="" class="">Reebok Store - Concept</a></p>
-          <img src="./images/braun.jpeg" alt="">
-          <p class=""><a href="" class="">Braun Landing Page - Concept</a></p>
-        </div>
+    </section>
     <footer class="contacts">
+      <div class="container">
         <h1 class="contact">Contacts</h1>
         <p>
+          <br />
           Want to know more or just chat? <br />
           You are welcome!
         </p>
+      </div>
+    </footer>
   </body>
 </html>
