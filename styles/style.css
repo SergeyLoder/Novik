@@ -40,6 +40,12 @@ ul {
   border-bottom: 1px;
   color: #828282;
 }
+.nav__item a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
 
 img {
   display: block;
