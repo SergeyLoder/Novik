@@ -88,5 +88,15 @@ h2 {
   text-align: center;
 }
 .contacts p {
-  margin: 20px; 
+  margin: 20px;
+}
+.send {
+  border-radius: 40%;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+.send_link {
+  color: white;
+  text-decoration: none;
 }
