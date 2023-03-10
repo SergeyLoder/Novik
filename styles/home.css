@@ -93,10 +93,7 @@
   line-height: 22px;
   text-align: center;
 }
-.portfolio p {
-  font-family: Gilroy-Medium;
-  
-}
+
 
 .portfolio__item {
   padding-bottom: 96px;
@@ -125,10 +122,8 @@
   line-height: 22px;
   text-align: center;
 }
-
-#contact {
-  padding: 114px 0 123px 0;
-  background: #fff;
+.portfolio p {
+  font-family: Gilroy-Medium;
 }
 
 .contact__title {
@@ -149,6 +144,7 @@
 }
 
 .contact__button {
+  max-width: 180px;
   display: block;
   background: #070707;
   font-weight: 700;
