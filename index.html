@@ -55,74 +55,104 @@
       </section>
     </main>
     <section class="skills">
-      <h2 class="skills_title">Skills</h2>
+      <h2 class="skills__title">Skills</h2>
       <p class="skills__subtitle">I work in such programs as</p>
       <div class="skills__logo">
         <div class="logo">
-        <img src="./images/Vector.svg" alt="icon" width="89" height="89" />
-        <p>Adobe Photoshop</p>
-        <div class="stars">
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/whitestar.svg" alt="icon" />
+          <img src="./images/PS.svg" alt="icon" width="89" height="89" />
+          <p>Adobe Photoshop</p>
+          <div class="stars">
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/whitestar.svg" alt="icon" />
+          </div>
         </div>
-      </div>
-      <div class="logo">
-        <img src="./images/Vector2.svg" alt="icon" width="89" height="89" />
-        <p>Adobe Illustrator</p>
-        <div class="stars">
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/whitestar.svg" alt="icon" />
-          <img src="./images/whitestar.svg" alt="icon" />
+        <div class="logo">
+          <img src="./images/Ai.svg" alt="icon" width="89" height="89" />
+          <p>Adobe Illustrator</p>
+          <div class="stars">
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/whitestar.svg" alt="icon" />
+            <img src="./images/whitestar.svg" alt="icon" />
+          </div>
         </div>
-      </div>
-      <div class="logo">
-        <img src="./images/Vector3.svg" alt="icon" width="89" height="89" />
-        <p>Adobe After Effect</p>
-        <div class="stars">
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/whitestar.svg" alt="icon" />
+        <div class="logo">
+          <img src="./images/Ae.svg" alt="icon" width="89" height="89" />
+          <p>Adobe After Effect</p>
+          <div class="stars">
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/whitestar.svg" alt="icon" />
+          </div>
         </div>
-      </div>
-      <div class="logo">
-        <img src="./images/Group.svg" alt="icon" width="89" height="89" />
-        <p>Figma</p>
-        <div class="stars">
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/blackstar.svg" alt="icon" />
-          <img src="./images/whitestar.svg" alt="icon" />
+        <div class="logo">
+          <img
+            class="figma"
+            src="./images/Group.svg"
+            alt="icon"
+            width="89"
+            height="89"
+          />
+          <p>Figma</p>
+          <div class="stars">
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/blackstar.svg" alt="icon" />
+            <img src="./images/whitestar.svg" alt="icon" />
+          </div>
         </div>
-      </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio">
       <div class="container">
-        <h2>Portfolio</h2>
-        <img src="./images/p1.jpeg" alt="" />
-        <p class=""><a href="" class="">Online fashion store - Homepage</a></p>
-        <img src="./images/reebok.jpeg" alt="" />
-        <p class=""><a href="" class="">Reebok Store - Concept</a></p>
-        <img src="./images/braun.jpeg" alt="" />
-        <p class=""><a href="" class="">Braun Landing Page - Concept</a></p>
+        <div class="portfolio__item">
+          <h2 class="portfolio__title">Portfolio</h2>
+          <img src="./images/p1.jpeg" width="940" height="512" />
+          <p class="portfolio__subtitle"> <a href="#">Online fashion store - Homepage</a></p>
+        </div>
+        <div class="portfolio__item">
+          <img src="./images/reebok.jpeg" width="940" height="524" />
+          <p class="portfolio__subtitle"><a href="#">Reebok Store - Concept</a></p>
+        </div>
+        <div class="portfolio__item">
+          <img src="./images/braun.jpeg" width="940" height="524" />
+          <p class="portfolio__subtitle"><a href="#">Braun Landing Page - Concept</a> </p>
+        </div>
       </div>
     </section>
-    <footer class="contacts">
+    <footer id="contact">
       <div class="container">
-        <h2 class="contact">Contacts</h2>
-        <p>
-          Want to know more or just chat? <br />
+        <p class="contact__title">Contacts</p>
+        <p class="contact__text">
+          Want to know more or just chat?
           You are welcome!
         </p>
-        <p class="send"><a class="send_link" href="#">Send Massage</a></p>
+        <button class="contact__button">Send message</button>
+        <div class="footer__icon">
+          <a href=""
+            ><img src="./images/in.svg" height="40" weight="40" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/instagram.svg" height="40" weight="40" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/behance.svg" height="40" weight="40" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/ball.svg" height="40" weight="40" alt=""
+          /></a>
+        </div>
+        <p class="contact__footer">
+          Like me on
+          LinkedIn, Instagram, Behance, Dribble
+        </p>
       </div>
     </footer>
   </body>

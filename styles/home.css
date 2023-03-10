@@ -23,6 +23,13 @@
   line-height: 59px;
   text-align: left;
 }
+.skills__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 69px;
+}
 
 .subtitle__image img {
   max-width: 100%;
@@ -33,6 +40,13 @@
   text-align: center;
   padding: 120px 0 18px 0;
   margin: 0 auto;
+}
+.skills__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 83px;
 }
 
 .skills__logo {
@@ -59,7 +73,10 @@
 .stars img {
   display: inline;
   flex-direction: column;
+  width: 20px;
+  height: 20px;
 }
+
 .logo {
   width: 167px;
 }
@@ -67,4 +84,97 @@
 .logo img {
   display: block;
   margin: 0 auto;
+}
+
+.portfolio {
+  background: #f6f6f6;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.portfolio p {
+  font-family: Gilroy-Medium;
+  
+}
+
+.portfolio__item {
+  padding-bottom: 96px;
+}
+
+.portfolio__title {
+  padding: 112px 0 47px 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.portfolio__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 42px;
+}
+
+.portfolio__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+#contact {
+  padding: 114px 0 123px 0;
+  background: #fff;
+}
+
+.contact__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.contact__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  white-space: pre-line;
+  height: 64px;
+}
+
+.contact__button {
+  display: block;
+  background: #070707;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  border-radius: 35px;
+  padding: 12px 28px 12px 28px;
+  margin: 29px auto 86px;
+}
+
+.footer__icon {
+  display: flex;
+  justify-content: space-between;
+  max-width: 342px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contact__footer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  white-space: pre-line;
+  color: #828282;
+  align-self: flex-end;
 }
