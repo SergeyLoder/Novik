@@ -34,3 +34,37 @@
   padding: 120px 0 18px 0;
   margin: 0 auto;
 }
+
+.skills__logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 24px auto 40px auto;
+  color: #828282;
+  min-height: 34px;
+  max-width: 79px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars img {
+  display: inline;
+  flex-direction: column;
+}
+.logo {
+  width: 167px;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
